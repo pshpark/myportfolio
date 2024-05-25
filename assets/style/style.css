@@ -258,7 +258,7 @@ main { position:relative; height: auto; }
 	.stn_about .cnt_project .cnt_top a { display:none; }
 	.stn_about .cnt_project .lst_wrap li { padding:3.2rem 2.8rem; }
 	.stn_about .cnt_project .lst_wrap li .lst_tit { padding-bottom:2rem; font-size:2rem; }
-	.stn_about .cnt_project .lst_wrap li .lst_txt { padding-bottom:2.8rem; font-size:1.4rem; }
+	.stn_about .cnt_project .lst_wrap li .lst_txt { padding-bottom:2.8rem; font-size:1.4rem !important; }
 	.stn_about .cnt_project .lst_wrap li .tag p { font-size:1.2rem; padding:4px 10px; }
 	.stn_about .cnt_project .btn_more { margin-top:2.4rem; padding:2rem 6rem; width: 100%; text-align: center; border-radius:8px; font-size:1.6rem; }
 	.stn_pr .cont p { font-size:2rem; }
