@@ -114,7 +114,8 @@ a , button {outline:0; display:inline-block; vertical-align:top; box-sizing:bord
 
 /* rayout */
 body { position: relative; background:#222; }
-#wrap{ position:relative; color:#fff; }
+#wrap{ position:relative; color:#fff; filter: blur(10px); transition:filter 1s; transition-delay:0.3s; }
+#wrap.on { filter:none; }
 main { position:relative; height: auto; }
 .stn{ width:100%; overflow-x: hidden; background:#0B0B0B; }
 .cont{ width:120rem; margin:0 auto; }

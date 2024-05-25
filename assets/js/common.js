@@ -1,3 +1,10 @@
+// Page Load Effect
+window.addEventListener("load",function(){
+  const elWrap = document.querySelector("#wrap");
+  elWrap.classList.add("on");
+})
+
+
 const scrStn = document.querySelectorAll('.scroll_stn');
 let scrStnY,scrStnUp,scrStnDown;
 const btnTop = document.querySelector(".btn_goTop");
