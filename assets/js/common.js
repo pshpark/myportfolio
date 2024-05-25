@@ -107,13 +107,20 @@ gsap.to(".contact06", {
 
 // swiper js
 const mySwiper = new Swiper('.swiper-container', {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 24,
-    freeMode : true,
-    autoplay : false,
+    autoplay : true,
     speed : 1300,
-    loop : false,
+    loop : true,
     loopAdditionalSlides : 1,
+    breakpoints: {
+      500: {
+        slidesPerView: 2,  //브라우저가 390보다 클 때
+        autoplay : false,
+        loop : false,
+        freeMode : true,
+      },
+    },
 });
 
 
