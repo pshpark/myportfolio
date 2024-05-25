@@ -235,8 +235,8 @@ main { position:relative; height: auto; }
 	html { font-size: 45%; }
 }
 
-/* 반응형 420 */
-@media screen and (max-width:420px) {
+/* 반응형 520 */
+@media screen and (max-width:520px) {
 	html { font-size: 62.5%; }
 	#header { padding:2rem 1.2rem; }
 	#header img { width:12rem; height:auto; }
