@@ -1,6 +1,7 @@
 const scrStn = document.querySelectorAll('.scroll_stn');
 let scrStnY,scrStnUp,scrStnDown;
 const btnTop = document.querySelector(".btn_goTop");
+const btnContact = document.querySelector(".url_contant");
 
 // Top button trigger
 $(window).scroll(function () {
@@ -18,8 +19,13 @@ $(window).scroll(function () {
     }
 });
 
+// Go to top
 btnTop.addEventListener("click",function(){
     window.scrollTo({ top: "0", behavior: "smooth" });
+})
+// Go to bottom
+btnContact.addEventListener("click",function(){
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
 })
 
 // Scroll Trigger Vanilla Js
