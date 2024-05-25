@@ -141,7 +141,7 @@ main { position:relative; height: auto; }
 .stn_hero { display: flex; align-items: center; justify-content: center; height:100vh; background:url(../img/img_visual.png) no-repeat; background-position: center bottom; background-size: cover; }
 .stn_hero .hero_desc { text-align: center; }
 .stn_hero .hero_desc .main_tit { padding-bottom:3.2rem; font-size: 10rem; font-weight: 700; line-height: 120%; }
-.stn_hero .hero_desc .sub_tit { padding-bottom:6rem; font-size: 20px; font-weight: 600; line-height: 100%; color: #D2F501 !important; }
+.stn_hero .hero_desc .sub_tit { padding-bottom:6rem; font-size: 2rem; font-weight: 600; line-height: 100%; color: #D2F501 !important; }
 .stn_hero .hero_desc .main_txt { line-height: 150%; font-weight: 300; font-size: 2rem; color: #999 !important; }
 .stn_hero .hero_desc .main_txt span { color: rgba(210, 245, 1, 0.60) !important; }
 
@@ -225,11 +225,16 @@ main { position:relative; height: auto; }
 .stn_mail .submit_wrap .form_txt { padding:1rem 0 7rem; line-height: 130%; font-weight: 300; font-size: 5rem; }
 .stn_mail .submit_wrap button { padding: 2rem 6rem; background: #D2F501; border-radius: 4px; line-height: 100%; font-weight: 700; font-size: 2rem; color: #111 !important; }
 
+
+
+/* 반응형  */
+@media (min-width:1921px) and (max-width:3000px) {
+	html { font-size: 75%; }
+}
 /* 반응형 1200 */
 @media screen and (max-width:1200px) {
 	html { font-size: 50%; }
 }
-
 /* 반응형 970 */
 @media screen and (max-width:970px) {
 	html { font-size: 45%; }
